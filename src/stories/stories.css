@@ -1,0 +1,18 @@
+.MyMonth { background-color: #ddd; color: black; }
+.MyMonth .Week .Day > .Day__number { font-size: 20px; color: #aaa; bottom: 4px; top: auto; }
+.MyMonth .Week .EmptyCell { background-color: white; }
+
+
+
+.MyMonthWithData .Week .Day > .Day__number { background-color: #ccc; font-size: 10px; color: #fff; bottom: 4px; top: auto; border-radius: 10px;  }
+.MyMonthWithData .Week .Day.today { background-color: rgba(46, 175, 60, 0.25); }
+.DayData { margin: 3px; background-color: #0b97c4; color: white; border-radius: 10px; line-height: 19px; font-size: 12px; text-align: center; }
+
+.code-example {
+  border: solid 1px #ccc;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+  overflow: auto;
+  max-height: 200px;
+}
+.code-example > pre { margin: 0; padding: 10px;}
