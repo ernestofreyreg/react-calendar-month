@@ -1,11 +1,12 @@
 {
   "name": "react-calendar-month",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Calendar Month Component",
   "author": {
     "name" : "Ernesto Freyre",
     "email" : "ernestofreyreg@gmail.com"
   },
+  "keywords": ["react", "calendar", "component", "month"],
   "repository": {
     "type": "git",
     "url": "https://github.com/ernestofreyreg/react-calendar-month.git"

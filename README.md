@@ -45,3 +45,8 @@ const data = {
 
 https://ernestofreyreg.github.io/react-calendar-month/
 
+## Next
+
+- More tests needed
+- Flag to render week day names
+- Other ideas, write me at @efreyreg
