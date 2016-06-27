@@ -1,0 +1,43 @@
+.Month {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: solid 1px #ccc;
+}
+
+.Week {
+  display: inline-flex;
+  border-bottom: solid 1px #ccc;
+}
+.Week:last-child { border: none; }
+
+.Day {
+  display: inline-flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-direction: column;
+  height: 60px;
+  border-right: solid 1px #ccc;
+  position: relative;
+}
+.Day > .Day__container {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  overflow: hidden;
+}
+.Day > .Day__number {
+  position: absolute;
+  top: 4px; right: 4px;
+  padding: 4px;
+  font-size: 10px;
+}
+.Day:last-child { border: none; }
+
+.EmptyCell {
+  display: inline-flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-right: solid 1px #ccc;
+  background-color: #f0f0f0;
+}
+.EmptyCell:last-child { border: none; }

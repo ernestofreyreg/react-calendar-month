@@ -41,6 +41,14 @@ const data = {
 <Month month={2} year={2016} className="MyMonth"/>
 ```
 
+## Styles
+
+**react-calendar-month** includes the styling necessary to properly render the month calendar panel. But you have to include it. 
+
+```
+import 'react-calendar-month/dist/styles.css';
+```
+
 ## Storyboard and code examples
 
 https://ernestofreyreg.github.io/react-calendar-month/

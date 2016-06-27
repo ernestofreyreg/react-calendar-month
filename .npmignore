@@ -1,2 +1,7 @@
 src
 .babelrc
+.idea/
+.storybook/
+.scripts/
+CONTRIBUTING.md
+
